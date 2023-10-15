@@ -1,0 +1,18 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "Basic Implementation of WebSockets",
+  "main": "node.js",
+  "scripts": {
+    "start": "nodemon node.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kaiberius",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "ws": "^8.14.2"
+  }
+}
