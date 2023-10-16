@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
-const ejs = require("ejs")
+const ejs = require("ejs");
+const paypal = require("paypal-rest-sdk");
 
 app.set("view engine","ejs");
 app.use(express.static("views"));
