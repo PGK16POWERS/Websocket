@@ -3,3 +3,56 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+a,li {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: azure;
+}
+
+#home-section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card {
+    width: 600px;
+    padding: 1rem;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.prod-image {
+    height: 150px;
+    width: 100%;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    background-color: orangered;
+}
+
+.prod-name {
+    font-size: 1.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#buyBtn {
+    padding: 1rem 3rem;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
