@@ -7,7 +7,7 @@ app.use(express.static("views"));
 
 
 app.get("/",(req,res)=>{
-    res.render("Emoyeni");
+    res.render("index.ejs");
 });
 
 
